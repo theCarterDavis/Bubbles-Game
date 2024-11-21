@@ -1,0 +1,11 @@
+erase 1.0 0.0 0.0 1.0 1.0 0.0 0.0 1.0 redX.png false 1 erase
+start 0.0 1.0 1.0 1.0 0.0 0.0 1.0 1.0 start.png true 1 start
+goal 0.0 1.0 1.0 1.0 0.0 0.0 1.0 1.0 goal.png true 1 goal
+break 0.0 1.0 1.0 1.0 0.0 0.0 1.0 1.0 break.png true 1 break 0.4
+ground 0.0 1.0 1.0 1.0 0.0 0.0 1.0 1.0 ground.png true 0
+timed 0.2 0.4 1.0 0.6 0.0 0.2 1.0 1.0 time.png true 1 pull 5 5 true
+pushes 0.0 0.3 1.0 1.0 0.5 0.0 1.0 1.0 push.png true 2 timer 3 push 5 5 true
+velmo 0.0 1.0 1.0 1.0 0.0 0.0 1.0 1.0 velmo.png true 1 velmod 3 0 2
+actives 0.4 1.0 1.0 1.0 0.0 0.0 1.0 1.0 switch.png true 1 activate velmo
+death 0.0 1.0 1.0 1.0 0.0 0.0 1.0 1.0 death.png true 1 death
+pull 0.0 1.0 1.0 1.0 0.5 0.0 1.0 1.0 blackHole.png true 1 pull 5 5 true
